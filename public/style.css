@@ -1,0 +1,542 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    display: flex;
+    background-color: #000098;
+    color: #000000;
+    width: 50%;
+    height: 100%;
+    padding: 12px;
+    border: 1px solid green;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    position: relative;
+    display:inline-block;
+    text-align: center;
+}
+.wrap svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.game{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 450px;
+    height: 400px;
+    background-color: #000000;
+}
+#start{
+    width: 80px;
+    position: absolute;
+    top: 25px;
+    left: 185px;
+    background: white;
+}
+#currentstate{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 135px;
+}
+#score{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+#state{
+    width:125px;
+    position: absolute;
+    top: 200px;
+    left: 162.5px;
+}
+#giveup{
+    position: absolute;
+    top: 250px;
+    left: 125px;
+}
+#checkguess{
+    position: absolute;
+    top: 250px;
+    left: 185px;
+}
+#restart{
+    position: absolute;
+    top: 250px;
+    left: 275px;
+}
+.us{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-image: url("images/US.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+#alabama{
+    position: absolute;
+    top: 535px;
+    right: 278px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#alaska{
+    position: absolute;
+    bottom: 360px;
+    left: 175px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#arizona{
+    position: absolute;
+    bottom: 600px;
+    left: 210px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#arkansas{
+    position: absolute;
+    top: 500px;
+    right: 380px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#california{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#colorado{
+    position: absolute;
+    top: 390px;
+    left: 340px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#connecticut{  
+    position: absolute;
+    top: 315px;
+    right: 65px;
+    background: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+#delaware{
+    position: absolute;
+    top: 388px;
+    right: 90px;
+    background: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+#florida{
+    position: absolute;
+    top: 635px;
+    right: 170px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#georgia{
+    position: absolute;
+    top: 535px;
+    right: 210px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#hawaii{
+    position: absolute;
+    top: 790px;
+    right: 535px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#idaho{
+    position: absolute;
+    top: 260px;
+    left: 210px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#illinois{
+    position: absolute;
+    top: 375px;
+    right: 330px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#indiana{
+    position: absolute;
+    top: 375px;
+    right: 275px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#iowa{
+    position: absolute;
+    top: 330px;
+    right: 400px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#kansas{
+    position: absolute;
+    top: 410px;
+    right: 485px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#kentucky{
+    position: absolute;
+    top: 430px;
+    right: 250px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#louisiana{
+    position: absolute;
+    top: 585px;
+    right: 385px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#maine{
+    position: absolute;
+    top: 210px;
+    right: 20px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#maryland{
+    position: absolute;
+    top: 380px;
+    right: 115px;
+    background: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+#massachusetts{
+    position: absolute;
+    top: 293px;
+    right: 50px;
+    background: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+#michigan{
+    position: absolute;
+    top: 295px;
+    right: 265px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#minnesota{
+    position: absolute;
+    top: 250px;
+    right: 420px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#mississippi{
+    position: absolute;
+    top: 535px;
+    right: 330px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#missouri{
+    position: absolute;
+    top: 420px;
+    right: 385px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#montana{
+    position: absolute;
+    top: 205px;
+    right: 650px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#nebraska{
+    position: absolute;
+    top: 340px;
+    right: 515px;
+    background: red;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+#nevada{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#newhampshire{
+    position: absolute;
+    top: 265px;
+    right: 60px;
+    background: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+#newjersey{
+    position: absolute;
+    top: 355px;
+    right: 85px;
+    background: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#newmexico{
+    position: absolute;
+    top: 490px;
+    right: 630px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#newyork{
+    position: absolute;
+    top: 285px;
+    right: 105px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#northcarolina{
+    position: absolute;
+    top: 460px;
+    right: 125px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#northdakota{
+    position: absolute;
+    top: 200px;
+    right: 510px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#ohio{
+    position: absolute;
+    top: 365px;
+    right: 215px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#oklahoma{
+    position: absolute;
+    top: 485px;
+    right: 475px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#oregon{
+    position: absolute;
+    top: 235px;
+    right: 835px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#pennsylvania{
+    position: absolute;
+    top: 340px;
+    right: 135px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#rhodeisland{
+    position: absolute;
+    top: 315px;
+    right: 47px;
+    background: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+#southcarolina{
+    position: absolute;
+    top: 510px;
+    right: 160px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#southdakota{
+    position: absolute;
+    top: 275px;
+    right: 515px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#tennessee{
+    position: absolute;
+    top: 475px;
+    right: 280px;
+    background: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+#texas{
+    position: absolute;
+    top: 565px;
+    right: 500px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#utah{
+    position: absolute;
+    top: 375px;
+    right: 715px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#vermont{
+    position: absolute;
+    top: 255px;
+    right: 80px;
+    background: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#virginia{
+    position: absolute;
+    top: 410px;
+    right: 135px;
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#washington{
+    position: absolute;
+    top: 155px;
+    right: 815px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#westvirginia{
+    position: absolute;
+    top: 395px;
+    right: 180px;
+    background: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+#wisconsin{
+    position: absolute;
+    top: 265px;
+    right: 345px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#wyoming{
+    position: absolute;
+    top: 290px;
+    right: 630px;
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
